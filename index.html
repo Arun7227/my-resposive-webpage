@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive nav bar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+ <header>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+     <div class="container">
+       <a href="#" class="navbar-brand page-title">chithra consultancy</a>
+       <button class="navbar-toggler" data-bs-toggle='collapse' data-bs-target='#nav'>
+         <i class="navbar-toggler-icon"></i>
+       </button>
+       <div class="collapse navbar-collapse nav_container--div" id="nav">
+         <ul class="navbar-nav nav_list">
+           <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
+           <li class="nav-item dropdown">
+             <a href="#" class="nav-link dropdown-toggle" type="button" data-bs-toggle='dropdown'>products</a>
+             <ul class="dropdown-menu drop bg-secondary">
+               <li class="dropdown-item">mobiles</li>
+               <li class="dropdown-item">laptops</li>
+               <li class="dropdown-item">accessories</li>
+             </ul>
+            </li>
+
+           <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+           <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </header>
+ <section class="container main">
+   <div class="jumbotron">
+     <h1>hello there!</h1>
+     <p class="lead">this is chithra consultancy</p>
+     <hr class="mt-5">
+     <h2>dream big achieve big</h2>
+      <blockquote class="text-success text-center">"dreams without goals are just dreams"</blockquote>
+   </div>
+   <div class="image ">
+     <div class="image_div">
+       <img src="./679546.jpg" alt="rolls" class="img-fluid img-thumbnail">
+     </div>
+     <div class="image_div">
+       <img src="./679527.jpg" alt="rolls" class="img-fluid img-thumbnail">
+     </div>
+     <div class="image_div">
+       <img src="./2014-rolls-royce-wraith-image-01.jpg" alt="rolls" class="img-fluid img-thumbnail">
+       </div>
+    </div>
+ </section>
+ <footer class="footer bg-secondary ">
+   <div class="container footer-container">
+     <small class="footer_rights">all contents 2021.copyright reserved</small>
+     <small class="footer_claims">site developer by <b>arun</b></small>
+   </div>
+ </footer>
+  <script src="./bootstrap.js"></script>
+</body>
+</html>
